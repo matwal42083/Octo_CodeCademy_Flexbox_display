@@ -1,0 +1,124 @@
+/*cheat sheet actual  styles the primary basis starts here*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  
+}
+
+.flex-item {
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+
+/*cheat sheet actual  styles the primary basis ends here*/
+
+
+
+/* flex-items displays styles secondary basis */
+
+
+
+
+/* Flex-item styles # 1 starts here*/
+#body1 {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .container1 {
+    background-color: whitesmoke;
+    
+
+  }
+  
+  .box1 {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightgrey;
+    
+  }
+  
+  #flex {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  }
+  #block {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+  /* Flex-item styles # 1 ends here*/
+
+  /* Flex-item styles # 2 starts here*/ 
+    #body2 {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .container2 {
+    width: 150px;
+    border: 1px solid grey;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .box2 {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    border: 1px solid turquoise;
+  }
+  /* Flex-item styles # 2 ends here*/

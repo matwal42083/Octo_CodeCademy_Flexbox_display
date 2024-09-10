@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox Display Cheat Sheet</title>
+</head>
+<body></body>
+    <header>
+        <h1>Codecademy Flexbox Display</h1>
+    </header>
+ <!--sections are the main sections-->   
+    <section>
+        <h2>Flex Container</h2>
+        <!--Flex container here first row-->
+        <div class="flex-container">
+            <!--flex-item # 1 starts-->
+            <div class="flex-item" id="body1"> <!--Div id is body to act as real body-->
+                <h1>Display: Flex</h1>
+                <div class='container1' id='flex'>
+                  <div class='box1'>
+                    <h2>1</h2>
+                  </div>
+                  <div class='box1'>
+                    <h2>2</h2>
+                  </div>
+                  <div class='box1'>
+                    <h2>3</h2>
+                  </div>
+                </div>
+                <h1>Display: Block</h1>
+                <div class='container1' id='block'>
+                  <div class='box1'>
+                    <h2>1</h2>
+                  </div>
+                  <div class='box1'>
+                    <h2>2</h2>
+                  </div>
+                  <div class='box1'>
+                    <h2>3</h2>
+                  </div>
+                </div>
+            </div>
+             <!--flex-item # 1 finish's-->
+                <!--flex-item # 2-->
+           <div class="flex-item" id="body2">
+              <h1>Inline-flex</h1>
+                <div class='container2' id="line1">
+                  <div class='box2'>
+                    <h3>1</h3>
+                  </div>
+                  <div class='box2'>
+                    <h3>2</h3>
+                  </div>
+                  <div class='box2'>
+                    <h3>3</h3>
+                  </div>
+                </div>
+                <div class='container2' id="line2">
+                  <div class='box2'>
+                    <h3>1</h3>
+                  </div>
+                  <div class='box2'>
+                    <h3>2</h3>
+                  </div>
+                  <div class='box2'>
+                    <h3>3</h3>
+                  </div>
+                </div>
+            </div> 
+                <!--flex-item # 3-->
+            <div class="flex-item">Item 3</div>
+        </div>
+    </section>
+<!--Section 2-->
+    <section>
+        <h2>Flex Direction</h2>
+        <div class="flex-container" style="flex-direction: row;">
+            <div class="flex-item">Row</div>
+            <div class="flex-item">Row</div>
+            <div class="flex-item">Row</div>
+        </div>
+        <div class="flex-container" style="flex-direction: column;">
+            <div class="flex-item">Column</div>
+            <div class="flex-item">Column</div>
+            <div class="flex-item">Column</div>
+        </div>
+    </section>
+
+    <!-- Add more sections as needed -->
+
+</body>
+</html>
