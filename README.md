@@ -5,7 +5,7 @@ Codecademy Flexbox display contribution project,
 for students to contribute to the fullstack engineering career path 
 
 > [!WARNING]
-> Only for Codecademy Pro <Fullstack
+> Only for Codecademy Pro Fullstack
 
 
 ### What is the project?
