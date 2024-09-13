@@ -35,7 +35,7 @@ contributing together, work as a team as well
 
     ![Screenshot1 2024-09-10 194930](https://github.com/user-attachments/assets/332fcdd9-ea4e-44b9-b864-4491d37c34b6)
 
-    ![Screenshot1 2024-09-10 194930](https://github.com/user-attachments/assets/332fcdd9-ea4e-44b9-b864-4491d37c34b6)
+    
 
 ### What in it for me?
  1. To get a very good understanding of Flexbox and how to do it correctly and ethically.
