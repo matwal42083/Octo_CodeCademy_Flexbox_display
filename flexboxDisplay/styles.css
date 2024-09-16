@@ -1,124 +1,210 @@
-/*cheat sheet actual  styles the primary basis starts here*/
+/* Main styles */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+  background-color: #1e194af3;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 
+.navbar a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+.navbar ul li {
+  display: inline;
+  margin: 0px 10px 0px 0px;
+  text-align: center;
+}
+
+
 h1 {
-    margin: 0;
+  font-size: 25px;
+  text-align: center;
 }
 
 section {
-    margin: 1rem;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .flex-container {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-  
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .flex-item {
-    background-color: #ddd;
-    padding: 1rem;
-    border-radius: 5px;
-    text-align: center;
-    flex: 1;
+  background-color: #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
 }
 
 
-/*cheat sheet actual  styles the primary basis ends here*/
+/* Secondary styles*/
+
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(181, 181, 181, 0.546);
+  width: 100%;
+  padding: 3px;
+}
+
+.box {
+  background-color: dodgerblue;
+  height: 50px;
+  width: 50px;
+  border: 1px solid lightgrey;
+}
+
+#flex {
+display:flex;
+}
 
 
 
-/* flex-items displays styles secondary basis */
+/* body content containers*/
+
+.inline-flex-container {
+ display: inline-flex;
+ flex-wrap: wrap;
+
+}
+
+.row-container {
+  background-color: rgba(181, 181, 181, 0.546);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-container {
+  background-color: rgba(181, 181, 181, 0.546);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.justify-container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  background-color: rgba(181, 181, 181, 0.546);
+  flex-wrap: wrap;
+}
+
+
+/* flex-directions */
+#row {
+flex-direction: row;
+}
+
+#row-reverse {
+flex-direction: row-reverse;
+}
+
+#column {
+flex-direction: column;
+}
+
+#column-reverse {
+flex-direction: column-reverse;
+}
 
 
 
 
-/* Flex-item styles # 1 starts here*/
-#body1 {
-    margin: 0;
-    border: 0;
-    font-family: 'Roboto Mono', monospace;
-  }
+
+
+/* justify-content */
+
+#flex-start {
+ justify-content: flex-start;
+}
+
+#flex-end {
+justify-content: flex-end;
+}
+
+#center1 {
+ justify-content: center;
+}
+
+#spacearound {
+justify-content: space-around;
+}
+
+#spacebetween {
+justify-content: space-between;
+}
+
+
+
+
+
+
+.align-container {
+  height: 125px;
+  background-color: rgba(181, 181, 181, 0.546);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left,
+.center,
+.right {
+  min-height: 50px;
+  width: 75px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
   
-  h1 {
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 16px;
-    text-align: center;
-  }
-  
-  .container1 {
-    background-color: whitesmoke;
-    
+}
 
-  }
-  
-  .box1 {
-    background-color: dodgerblue;
-    height: 50px;
-    width: 50px;
-    border: 1px solid lightgrey;
-    
-  }
-  
-  #flex {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  }
-  #block {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+#baseline .center {
+  height: 75px;
+  width: 75px;
+  border: 5px solid turquoise;
+}
 
-    }
-  /* Flex-item styles # 1 ends here*/
+#flexstart {
+ align-items: flex-start;
+}
 
-  /* Flex-item styles # 2 starts here*/ 
-    #body2 {
-    margin: 0;
-    border: 0;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 12px;
-    text-align: center;
-  }
-  
-  .container2 {
-    width: 150px;
-    border: 1px solid grey;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  
-  .box2 {
-    background-color: dodgerblue;
-    height: 50px;
-    width: 50px;
-    border: 1px solid turquoise;
-  }
-  /* Flex-item styles # 2 ends here*/
+#flexend {
+ align-items: flex-end;
+}
+
+#center {
+align-items: center;
+
+}
+
+#baseline {
+ align-items: baseline;
+}

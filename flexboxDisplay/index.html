@@ -1,94 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox Display Cheat Sheet</title>
-</head>
-<body></body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Codecademy Flexbox Display</h1>
+      <h1>Codecademy</h1>
+      <h2>Flexbox Cheat Sheet</h2>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#flex-container">Flex Container</a></li>
+          <li><a href="#flex-direction">Flex Direction</a></li>
+          <li><a href="#justify-content">justify-content</a></li>
+          <li><a href="#align-items">align-items</a></li>
+          <li><a href="#">nav5</a></li>
+        </ul>
+      </nav>
     </header>
- <!--sections are the main sections-->   
-    <section>
-        <h2>Flex Container</h2>
-        <!--Flex container here first row-->
-        <div class="flex-container">
-            <!--flex-item # 1 starts-->
-            <div class="flex-item" id="body1"> <!--Div id is body to act as real body-->
-                <h1>Display: Flex</h1>
-                <div class='container1' id='flex'>
-                  <div class='box1'>
-                    <h2>1</h2>
-                  </div>
-                  <div class='box1'>
-                    <h2>2</h2>
-                  </div>
-                  <div class='box1'>
-                    <h2>3</h2>
-                  </div>
-                </div>
-                <h1>Display: Block</h1>
-                <div class='container1' id='block'>
-                  <div class='box1'>
-                    <h2>1</h2>
-                  </div>
-                  <div class='box1'>
-                    <h2>2</h2>
-                  </div>
-                  <div class='box1'>
-                    <h2>3</h2>
-                  </div>
-                </div>
+
+    <section id="flex-container">
+      <h2>Flex Container</h2>
+      <div class="flex-container">
+        <div class="flex-item">
+          <h3>Display: Flex</h3>
+          <div class="container" id="flex">
+            <div class="box">
+              <h3>1</h3>
             </div>
-             <!--flex-item # 1 finish's-->
-                <!--flex-item # 2-->
-           <div class="flex-item" id="body2">
-              <h1>Inline-flex</h1>
-                <div class='container2' id="line1">
-                  <div class='box2'>
-                    <h3>1</h3>
-                  </div>
-                  <div class='box2'>
-                    <h3>2</h3>
-                  </div>
-                  <div class='box2'>
-                    <h3>3</h3>
-                  </div>
-                </div>
-                <div class='container2' id="line2">
-                  <div class='box2'>
-                    <h3>1</h3>
-                  </div>
-                  <div class='box2'>
-                    <h3>2</h3>
-                  </div>
-                  <div class='box2'>
-                    <h3>3</h3>
-                  </div>
-                </div>
-            </div> 
-                <!--flex-item # 3-->
-            <div class="flex-item">Item 3</div>
+            <div class="box">
+              <h3>2</h3>
+            </div>
+            <div class="box">
+              <h2>3</h2>
+            </div>
+          </div>
         </div>
-    </section>
-<!--Section 2-->
-    <section>
-        <h2>Flex Direction</h2>
-        <div class="flex-container" style="flex-direction: row;">
-            <div class="flex-item">Row</div>
-            <div class="flex-item">Row</div>
-            <div class="flex-item">Row</div>
+        <div class="flex-item">  
+          <h2>Display: Block</h2>
+          <div class='container' id='block'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+          </div>
         </div>
-        <div class="flex-container" style="flex-direction: column;">
-            <div class="flex-item">Column</div>
-            <div class="flex-item">Column</div>
-            <div class="flex-item">Column</div>
+        <div class="flex-item">  
+          <h2>Inline-flex</h2>
+          <div class='inline-flex-container'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+          </div>
+          <div class='inline-flex-container'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Add more sections as needed -->
+    <section id="flex-direction">
+      <h2>Flex Direction</h2>
+      <div class="flex-container" style="flex-direction: row;">
+        <div class="flex-item"> 
+          <h3>Flex-Direction: Row</h3>
+          <div class='row-container' id='row'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+            <div class='box'>
+              <h3>4</h3>
+            </div>
+            <div class='box'>
+              <h3>5</h3>
+            </div>
+          </div>
+        </div>
+        <div class="flex-item">
+          <h2>Flex-Direction: Row-Reverse</h2>
+          <div class='row-container' id='row-reverse'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+            <div class='box'>
+              <h3>4</h3>
+            </div>
+            <div class='box'>
+              <h3>5</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-container" style="flex-direction: row;">
+        <div class="flex-item">  
+          <h2>Flex-Direction: Column</h2>
+          <div class='col-container' id='column'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+            <div class='box'>
+              <h3>4</h3>
+            </div>
+            <div class='box'>
+              <h3>5</h3>
+            </div>
+          </div>
+        </div>
+        <div class="flex-item">  
+          <h2>Flex-Direction: Column-Reverse</h2>
+          <div class='col-container' id='column-reverse'>
+            <div class='box'>
+              <h3>1</h3>
+            </div>
+            <div class='box'>
+              <h3>2</h3>
+            </div>
+            <div class='box'>
+              <h3>3</h3>
+            </div>
+            <div class='box'>
+              <h3>4</h3>
+            </div>
+            <div class='box'>
+              <h3>5</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="justify-content">
+      <h2>justify-content</h2>
+      <div class="flex-container" style="flex-direction: row;">
+          <div class="flex-item">  
+            <h2>Flex Start</h2>
+            <div class='justify-container' id='flex-start'>
+              <div class='box'><h3>1</h3></div>
+              <div class='box'><h3>2</h3></div>
+              <div class='box'><h3>3</h3></div>
+            </div>
+          </div>
+          <div class="flex-item">
+            <h2>Flex End</h2>
+             <div class='justify-container' id='flex-end'>
+               <div class='box'><h3>1</h3></div>
+               <div class='box'><h3>2</h3></div>
+               <div class='box'><h3>3</h3></div>
+             </div>
+            </div>
+           </div>
+          <div class="flex-container" style="flex-direction: row;">
+              <div class="flex-item">
+                <h2>Center</h2>
+               <div class='justify-container' id='center1'>
+                 <div class='box'><h3>1</h3></div>
+                 <div class='box'><h3>2</h3></div>
+                 <div class='box'><h3>3</h3></div>
+               </div>
+              </div>
+              <div class="flex-item">
+                <h2>Space Around</h2>
+                <div class='justify-container' id='spacearound'>
+                  <div class='box'><h3>1</h3></div>
+                  <div class='box'><h3>2</h3></div>
+                  <div class='box'><h3>3</h3></div>
+                </div>
+              </div>
+              <div class="flex-item">
+                <h2>Space between</h2>
+                <div class="justify-container" id="spacebetween">
+                  <div class="box"><h3>1</h3></div>
+                  <div class="box"><h3>2</h3></div>
+                  <div class="box"><h3>3</h3></div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section id="align-items">
+          <h2>align-items</h2>
+          <div class="flex-container" style="flex-direction: row;">
+              <div class="flex-item">
+                <h2>Flex Start</h2>
+                <div class='align-container' id='flexstart'>
+                  <div class='left'><h3>1</h3></div>
+                  <div class='center'><h3>2</h3></div>
+                  <div class='right'><h3>3</h3></div>
+                </div>
+              </div>
+              <div class="flex-item">
+                <h2>Flex End</h2>
+                <div class='align-container' id='flexend'>
+                  <div class='left'><h3>1</h3></div>
+                  <div class='center'><h3>2</h3></div>
+                  <div class='right'><h3>3</h3></div>
+                </div>
+              </div>
+              <div class="flex-item">
+                <h2>Center</h2>
+                <div class='align-container' id='center'>
+                  <div class='left'><h3>1</h3></div>
+                  <div class='center'><h3>2</h3></div>
+                  <div class='right'><h3>3</h3></div>
+                </div>
+              </div>
+          </div>
+          <div class="flex-container" style="flex-direction: row;">
+              <div class="flex-item">
+                <h2>Baseline</h2>
+                <div class='align-container' id='baseline'>
+                  <div class='left'><h3>1</h3></div>
+                  <div class='center'><h3>2</h3></div>
+                  <div class='right'><h3>3</h3></div>
+                </div>
+              </div>
+              <div class="flex-item">
+                <h2>Stretch</h2>
+               <div class='align-container' id='stretch'>
+                 <div class='left'><h3>1</h3></div>
+                 <div class='center'><h3>2</h3></div>
+                 <div class='right'><h3>3</h3></div>
+               </div>
+              </div>
+           
+          </div>
+      </section>
 
-</body>
+  </body>
 </html>
+
+
