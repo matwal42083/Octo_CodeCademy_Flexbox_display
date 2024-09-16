@@ -27,15 +27,20 @@ contributing together, work as a team as well
 
 ### What the Project looks like:
  1. The project layout - Is a flexbox layout itself and can get very confusing very quickly and overwhelming as well
+ 
+   
+    ![Screenshot 2024-09-15 224825](https://github.com/user-attachments/assets/e6aa52d7-95f1-4d9d-a2bb-1e1adaf28eda)
 
-     ![picOfContributeProject 2024-09-10 193649](https://github.com/user-attachments/assets/7daaa1a2-44be-40d9-b5c1-d1aefdb7de36)
+     
 
- 2. The Project content items - The content that will be going into the boxes in the main flexbox layout aka box items.
+ 2. The Project content items - The content will be going into the boxes in the main flexbox layout aka box items.
     As you can see and figure out quickly this project is Flexbox into Flexbox. 
 
-    ![Screenshot1 2024-09-10 194930](https://github.com/user-attachments/assets/332fcdd9-ea4e-44b9-b864-4491d37c34b6)
+   
+    ![Screenshot 2024-09-15 224906](https://github.com/user-attachments/assets/63025aa8-3a29-45be-a704-de2e818bad9c)
 
-    
+
+    ![Screenshot 2024-09-15 224940](https://github.com/user-attachments/assets/98d1bf14-c753-42aa-b11f-4821c663e31b)
 
 ### What in it for me?
  1. To get a very good understanding of Flexbox and how to do it correctly and ethically.
